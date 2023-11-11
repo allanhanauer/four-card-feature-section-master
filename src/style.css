@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  color: var(--color--VeryDarkBlue);
+}
+p {
+  font-size: 15px;
+}
+:root {
+  --color-Red: hsl(0, 78%, 62%);
+  --color-Cyan: hsl(180, 62%, 55%);
+  --color-Orange: hsl(34, 97%, 64%);
+  --color-Blue: hsl(212, 86%, 64%);
+  --color--VeryDarkBlue: hsl(234, 12%, 34%);
+  --color-GrayishBlue: hsl(229, 6%, 66%);
+  --color-VeryLightGray: hsl(0, 0%, 98%);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: var(--color-VeryLightGray);
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  display: flex;
+  font-weight: 200;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+#title-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header #delivery {
+  font-size: 26px;
+  font-weight: 400;
+}
+header #tech {
+  font-size: 27px;
+  font-weight: 600;
+}
+#desc-header {
+  font-size: 18px;
+  width: 500px;
+  text-align: center;
+}
+main {
+  width: 80%;
+  height: 528px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: flex;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  box-shadow: 8px 13px 10px 0px rgba(0, 0, 0, 0.21);
+  padding: 30px;
+  width: 350px;
+  height: 250px;
+  background-color: white;
+}
+.box p{
+    font-weight: 200;
+}
+#first-box {
+  border-top: 5px solid var(--color-Cyan);
+}
+#second-box {
+  border-top: 5px solid var(--color-Red);
+}
+#three-box {
+  border-top: 5px solid var(--color-Orange);
+}
+#four-box {
+  border-top: 5px solid var(--color-Blue);
+}
+#two {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.img_box {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
